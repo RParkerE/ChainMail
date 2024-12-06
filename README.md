@@ -50,21 +50,37 @@ python client/main.py
 ## Project Structure
 
 chainmail/
+
 ├── client/
+
 │ ├── core/
+
 │ │ ├── client_controller.py
+
 │ │ ├── email_manager.py
+
 │ │ ├── settings_manager.py
+
 │ │ └── wallet_manager.py
+
 │ ├── windows/
+
 │ │ ├── compose_window.py
+
 │ │ ├── login_window.py
+
 │ │ ├── main_window.py
+
 │ │ └── settings_window.py
+
 │ ├── utils/
+
 │ │ └── reset.py
+
 │ └── main.py
+
 ├── requirements.txt
+
 └── README.md
 
 ## Development
